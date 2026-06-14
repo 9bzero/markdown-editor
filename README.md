@@ -1,21 +1,48 @@
-# Markdown Editor
+<div align="center">
 
-A live split-pane Markdown editor with real-time preview, built with React and TypeScript.
+  # Markdown Editor
 
-## Features
-- Live preview as you type — no delay
-- Split view, editor-only, or preview-only modes
-- Custom dark-theme prose styling
-- Copy to clipboard
-- Download as `.md` file
-- Word and character count
-- Persists content to localStorage
+  [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+  [![marked](https://img.shields.io/badge/marked-000000?style=flat-square&logo=markdown&logoColor=white)](https://marked.js.org/)
 
-## Tech Stack
-React 18 · TypeScript · Tailwind CSS v4 · marked · Vite
+  **A clean split-pane Markdown editor with live preview — no server, no login.**
 
-## Getting Started
-```bash
-npm install
-npm run dev
-```
+  </div>
+
+  ---
+
+  ## Features
+
+  | Feature | Details |
+  |---------|---------|
+  | Live preview | Renders as you type with zero perceptible lag |
+  | View modes | Split · Editor only · Preview only |
+  | Export | Download as `.md` file |
+  | Copy | One-click copy to clipboard |
+  | Word count | Live word and character count |
+  | Persistent | Content saved to `localStorage` |
+  | Styling | Custom dark-theme prose — headings, code blocks, tables, blockquotes |
+
+  ## Getting Started
+
+  ```bash
+  npm install && npm run dev
+  ```
+
+  ## Supported Markdown
+
+  Full CommonMark spec via `marked`:
+
+  ```md
+  # Headings H1–H6        | **Bold**, *Italic*, ~~Strike~~
+  `Inline code`           | ```language code blocks```
+  - Lists (ordered/unordered) | > Blockquotes
+  | Tables |               | --- Horizontal rules
+  [Links](url)             | ![Images](url)
+  ```
+
+  ---
+
+  <div align="center">Made with TypeScript · Part of my <a href="https://github.com/9bzero">developer portfolio</a></div>
+  
